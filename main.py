@@ -38,7 +38,3 @@ def upload_file():
         res[i] = res[i].split("\n")
 """
     return render_template("index.html", content=res)
-
-
-
-app.run(debug = True)
