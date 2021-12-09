@@ -10,7 +10,7 @@ app = Flask(__name__)
 app.static_folder = 'static'
 app.secret_key = 'mdr'
 
-@app.route("/index")
+@app.route("/")
 def index():
     return render_template("index.html")
 
